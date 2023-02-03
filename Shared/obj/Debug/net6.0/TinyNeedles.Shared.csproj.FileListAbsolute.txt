@@ -10,3 +10,15 @@ D:\git\tinyneedles\TinyNeedles\Shared\obj\Debug\net6.0\TinyNeedles.Shared.dll
 D:\git\tinyneedles\TinyNeedles\Shared\obj\Debug\net6.0\refint\TinyNeedles.Shared.dll
 D:\git\tinyneedles\TinyNeedles\Shared\obj\Debug\net6.0\TinyNeedles.Shared.pdb
 D:\git\tinyneedles\TinyNeedles\Shared\obj\Debug\net6.0\ref\TinyNeedles.Shared.dll
+D:\git\tinyneedles\Shared\bin\Debug\net6.0\TinyNeedles.Shared.deps.json
+D:\git\tinyneedles\Shared\bin\Debug\net6.0\TinyNeedles.Shared.dll
+D:\git\tinyneedles\Shared\bin\Debug\net6.0\TinyNeedles.Shared.pdb
+D:\git\tinyneedles\Shared\obj\Debug\net6.0\TinyNeedles.Shared.csproj.AssemblyReference.cache
+D:\git\tinyneedles\Shared\obj\Debug\net6.0\TinyNeedles.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\tinyneedles\Shared\obj\Debug\net6.0\TinyNeedles.Shared.AssemblyInfoInputs.cache
+D:\git\tinyneedles\Shared\obj\Debug\net6.0\TinyNeedles.Shared.AssemblyInfo.cs
+D:\git\tinyneedles\Shared\obj\Debug\net6.0\TinyNeedles.Shared.csproj.CoreCompileInputs.cache
+D:\git\tinyneedles\Shared\obj\Debug\net6.0\TinyNeedles.Shared.dll
+D:\git\tinyneedles\Shared\obj\Debug\net6.0\refint\TinyNeedles.Shared.dll
+D:\git\tinyneedles\Shared\obj\Debug\net6.0\TinyNeedles.Shared.pdb
+D:\git\tinyneedles\Shared\obj\Debug\net6.0\ref\TinyNeedles.Shared.dll

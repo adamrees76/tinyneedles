@@ -196,15 +196,15 @@
       "mscorlib.dll": "sha256-SboUbkX8s5RVQGtnN5Q67MBZW0I\/P3aeEMENJq8gv8M=",
       "netstandard.dll": "sha256-lZ8L5iiSghlvyt2ie2YdBYAtJbVa4mvpvBX3W9ihjLc=",
       "System.Private.CoreLib.dll": "sha256-jECkJy2Sjpl59QEL3nO3p8nwKGXvnJpXaKQF\/+MTw04=",
-      "TinyNeedles.Shared.dll": "sha256-0wTyY3sINWwVZJeFU0AyP6\/maY7H6WDqeNmwqcg1pwU=",
-      "TinyNeedles.Client.dll": "sha256-fTtiGpoyoe79G0XD0ys0+RR\/RBBZgTC9Nseco6oTiPE="
+      "TinyNeedles.Shared.dll": "sha256-DJvi+O9rlB814+YaJ3XgJR555AMGzkz3UrFy0MQVdEo=",
+      "TinyNeedles.Client.dll": "sha256-J44iF0GZX8pDX9he3RWC1rkZFmXP5KF0E8iLdJC3YnA="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "TinyNeedles.Shared.pdb": "sha256-rPBPLqcYBeoA9FHvgOib7q\/xB85ER9tLVtJrUM8B9ik=",
-      "TinyNeedles.Client.pdb": "sha256-nonP91ussSl5d\/qNXQE6kf4m82Gwbn5HeyE5Wq3umkg="
+      "TinyNeedles.Shared.pdb": "sha256-8bxVwzF7AbnwU58uhrjOG38phzdKq5ieVKAaz7HvqN4=",
+      "TinyNeedles.Client.pdb": "sha256-xwT4RGVj\/BLS\/IRl+IXk5X+svEupyIiZS4Ec4\/RX5EU="
     },
     "runtime": {
       "dotnet.6.0.10.407uio0myu.js": "sha256-KtM3Wrooexmrt5NmqvZfWoDPtNIe6wZqLopR6ToqUPg=",
