@@ -1,0 +1,22 @@
+﻿@page "/contact"
+@using TinyNeedles.Shared
+@inject HttpClient Http
+
+<PageTitle>Contact</PageTitle>
+
+<h1>Contact</h1>
+
+
+<textarea rows="5" cols="60" name="description">
+            Enter details here...
+</textarea>
+
+
+@code {
+    private WeatherForecast[]? forecasts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+    }
+}

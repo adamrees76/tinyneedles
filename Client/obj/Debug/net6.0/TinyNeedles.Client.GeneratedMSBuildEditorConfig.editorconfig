@@ -22,16 +22,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/tinyneedles/Client/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[D:/git/tinyneedles/Client/Pages/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/tinyneedles/Client/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+[D:/git/tinyneedles/Client/Pages/Fabrics.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFicmljcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/git/tinyneedles/Client/Pages/Gallery.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FsbGVyeS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/git/tinyneedles/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/git/tinyneedles/Client/Pages/Products.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/git/tinyneedles/Client/Shared/SurveyPrompt.razor]
