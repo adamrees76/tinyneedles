@@ -7,11 +7,16 @@
 
 <h1>Contact</h1>
 
-
-<textarea rows="5" cols="40" name="original" @bind="OriginalDescription">
+Product: 
+<textarea rows="1" cols="40" name="original" @bind="SelectedProduct">
             Enter details here...
 </textarea>
+<br/>
 
+Fabric: 
+<textarea rows="1" cols="40" name="original" @bind="SelectedFabric">
+            Enter details here...
+</textarea>
 <br/>
 
 <button name="button" @onclick="OnClick">Press me</button>
@@ -20,11 +25,15 @@
 
 @code
 {
-    public string OriginalDescription { get; set; } = string.Empty;
+    public string SelectedProduct { get; set; } = string.Empty;
+    public string SelectedFabric { get; set; } = string.Empty;
     static HttpClient client = new HttpClient();
     private void OnClick()
     {
-        string url = $"https://tinyneedlescontactus.azurewebsites.net/api/Function1?text=\"{OriginalDescription}\"";
+        string message = "";
+        message += $"Product: {SelectedProduct}\\n" + Environment.NewLine;
+        message += $"Fabric: {SelectedFabric}" + Environment.NewLine;
+        string url = $"https://tinyneedlescontactus.azurewebsites.net/api/Function1?text=\"{message}\"";
         var response = client.GetAsync(url);
     }
 }
