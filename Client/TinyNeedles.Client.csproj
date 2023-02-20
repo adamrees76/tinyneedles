@@ -7,11 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\fabrics\fabric 1.jpg" />
-    <Content Remove="wwwroot\fabrics\fabric 2.jpg" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.13" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.13" PrivateAssets="all" />
   </ItemGroup>
@@ -21,15 +16,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="wwwroot\fabrics\fabric 1.jpg">
+	<Content Update="wwwroot\fabrics\fabric 1.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="wwwroot\fabrics\fabric 2.jpg">
+    </Content>
+	<Content Update="wwwroot\fabrics\fabric 2.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-
-  <ItemGroup>
+    </Content>
     <Content Update="wwwroot\fabrics\fabric 3.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -42,6 +34,8 @@
     <Content Update="wwwroot\fabrics\fabric 6.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-  </ItemGroup>
+  
+
+</ItemGroup>
 
 </Project>
