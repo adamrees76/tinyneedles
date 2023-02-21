@@ -4,3 +4,49 @@
 
 <PageTitle>Reviews</PageTitle>
 
+<h1>Reviews</h1>
+
+Review
+<br />
+<textarea rows="5" cols="40" name="messagebox" @bind="SelectedMessage">
+            Enter details here...
+</textarea>
+<br />
+
+<button name="button" @onclick="OnClick">Submit Review</button>
+<br />
+<br />
+<label name="sendLabel">@SentLabel</label>
+<hr/>
+<div class="shadow p-3 mb-5 bg-white rounded">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Review 1</h5>
+          <p class="card-text">Wow.</p>
+        </div>
+    </div>
+</div>
+<br />
+<div class="shadow p-3 mb-5 bg-white rounded">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Review 2</h5>
+            <p class="card-text">Wow.</p>
+        </div>
+    </div>
+</div>
+
+@code
+{
+    public string SelectedMessage { get; set; } = string.Empty;
+    public string SentLabel { get; set; } = string.Empty;
+
+    static HttpClient client = new HttpClient();
+    private void OnClick()
+    {
+        string url = $"https://tinyneedlescontactus.azurewebsites.net/api/Function1?subject=\"Review\"&text=\"{SelectedMessage}\"";
+        var response = client.GetAsync(url);
+        SentLabel = "Review sent";
+        Thread.Sleep(2000);
+    }
+}

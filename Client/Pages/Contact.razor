@@ -5,7 +5,7 @@
 
 <PageTitle>Contact</PageTitle>
 
-<h1>Contact</h1>
+<h1>Contact Us</h1>
 
 Message
 <br />
@@ -32,6 +32,6 @@ Message
         string url = $"https://tinyneedlescontactus.azurewebsites.net/api/Function1?subject=\"Contact-Us\"&text=\"{SelectedMessage}\"";
         var response = client.GetAsync(url);
         SentLabel = "Message sent";
-
+        Thread.Sleep(2000);
     }
 }
