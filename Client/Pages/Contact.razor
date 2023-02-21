@@ -29,7 +29,7 @@ Message
     static HttpClient client = new HttpClient();
     private void OnClick()
     {
-        string url = $"https://tinyneedlescontactus.azurewebsites.net/api/Function1?text=\"Contact-Us\"&text=\"{SelectedMessage}\"";
+        string url = $"https://tinyneedlescontactus.azurewebsites.net/api/Function1?subject=\"Contact-Us\"&text=\"{SelectedMessage}\"";
         var response = client.GetAsync(url);
         SentLabel = "Message sent";
 
