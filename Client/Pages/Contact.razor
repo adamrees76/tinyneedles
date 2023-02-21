@@ -7,33 +7,31 @@
 
 <h1>Contact</h1>
 
-Product: 
-<textarea rows="1" cols="40" name="original" @bind="SelectedProduct">
-            Enter details here...
-</textarea>
-<br/>
-
-Fabric: 
-<textarea rows="1" cols="40" name="original" @bind="SelectedFabric">
-            Enter details here...
-</textarea>
-<br/>
-
-<button name="button" @onclick="OnClick">Press me</button>
-
+Message
 <br />
+<textarea rows="5" cols="40" name="messagebox" @bind="SelectedMessage">
+            Enter details here...
+</textarea>
+<br/>
+
+<button name="button" @onclick="OnClick">Send</button>
+<br />
+<br />
+<label name="sendLabel">@SentLabel</label>
+<br />
+
 
 @code
 {
-    public string SelectedProduct { get; set; } = string.Empty;
-    public string SelectedFabric { get; set; } = string.Empty;
+    public string SelectedMessage { get; set; } = string.Empty;
+    public string SentLabel { get; set; } = string.Empty;
+
     static HttpClient client = new HttpClient();
     private void OnClick()
     {
-        string message = "";
-        message += $"Product: {SelectedProduct}\\n" + Environment.NewLine;
-        message += $"Fabric: {SelectedFabric}" + Environment.NewLine;
-        string url = $"https://tinyneedlescontactus.azurewebsites.net/api/Function1?text=\"{message}\"";
+        string url = $"https://tinyneedlescontactus.azurewebsites.net/api/Function1?text=\"Contact-Us\"&text=\"{SelectedMessage}\"";
         var response = client.GetAsync(url);
+        SentLabel = "Message sent";
+
     }
 }
