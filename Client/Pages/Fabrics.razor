@@ -13,7 +13,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 center-block text-center">
-                      <img src="fabrics/fabric 1.jpg" />
+                      <img src="fabricimages/fabric 1.jpg" />
                     </div>
                 </div>
                 <div class="row">
@@ -33,7 +33,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 center-block text-center">
-                        <img src="fabrics/fabric 2.jpg" />
+                        <img src="fabricimages/fabric 2.jpg" />
                     </div>
                 </div>
                 <div class="row">
@@ -52,7 +52,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 center-block text-center">
-                        <img src="fabrics/fabric 3.jpg" />
+                        <img src="fabricimages/fabric 3.jpg" />
                     </div>
                 </div>
                 <div class="row">
@@ -73,7 +73,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 center-block text-center">
-                        <img src="fabrics/fabric 4.jpg" />
+                        <img src="fabricimages/fabric 4.jpg" />
                     </div>
                 </div>
                 <div class="row">
@@ -92,7 +92,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 center-block text-center">
-                        <img src="fabrics/fabric 5.jpg" />
+                        <img src="fabricimages/fabric 5.jpg" />
                     </div>
                 </div>
                 <div class="row">
@@ -111,7 +111,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 center-block text-center">
-                        <img src="fabrics/fabric 6.jpg" />
+                        <img src="fabricimages/fabric 6.jpg" />
                     </div>
                 </div>
                 <div class="row">
@@ -130,7 +130,7 @@
 </div>
 
 
-<!--<button class="btn btn-primary" @onclick="SetImageCount"> @FabricImageCount</button>-->
+<button class="btn btn-primary" @onclick="SetImageCount"> @FabricImageCount</button>
 
 @code {
     private string? imageSource;
@@ -139,7 +139,7 @@
 
     private void SetImageCount()
     {
-        var path = Path.Combine(Environment.CurrentDirectory, "fabrics");
+        var path = Path.Combine(Environment.CurrentDirectory, "fabricimages");
         if (Directory.Exists(path))
         {
             FabricImageCount = Directory.GetFiles(path, "*", SearchOption.TopDirectoryOnly).Length;
