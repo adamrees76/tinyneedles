@@ -7,6 +7,36 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\fabricimages\fabric 1.jpg" />
+    <Content Remove="wwwroot\fabricimages\fabric 2.jpg" />
+    <Content Remove="wwwroot\fabricimages\fabric 3.jpg" />
+    <Content Remove="wwwroot\fabricimages\fabric 4.jpg" />
+    <Content Remove="wwwroot\fabricimages\fabric 5.jpg" />
+    <Content Remove="wwwroot\fabricimages\fabric 6.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="wwwroot\fabricimages\fabric 1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="wwwroot\fabricimages\fabric 2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="wwwroot\fabricimages\fabric 3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="wwwroot\fabricimages\fabric 4.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="wwwroot\fabricimages\fabric 5.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="wwwroot\fabricimages\fabric 6.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.13" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.13" PrivateAssets="all" />
   </ItemGroup>
@@ -14,28 +44,5 @@
   <ItemGroup>
     <ProjectReference Include="..\Shared\TinyNeedles.Shared.csproj" />
   </ItemGroup>
-
-  <ItemGroup>
-	<Content Update="wwwroot\fabrics\fabric 1.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-	<Content Update="wwwroot\fabrics\fabric 2.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Update="wwwroot\fabrics\fabric 3.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Update="wwwroot\fabrics\fabric 4.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Update="wwwroot\fabrics\fabric 5.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Update="wwwroot\fabrics\fabric 6.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  
-
-</ItemGroup>
 
 </Project>
